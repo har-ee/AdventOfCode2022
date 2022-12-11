@@ -51,7 +51,6 @@ class Monkey:
         self.items = []
 
 
-
 with open("day11/input") as f:
     monkey_list = [Monkey.parse_monkey(m) for m in f.read().split("\n\n")]
 

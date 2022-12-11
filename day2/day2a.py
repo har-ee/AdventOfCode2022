@@ -15,7 +15,6 @@ moves = {
     "X": R, "Y": P, "Z": S,
 }
 
-
 def score(m1, m2):
     pts = bonus[m2]
 
